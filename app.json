@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "greenleaf",
+    "name": "Green Leaf",
     "slug": "greenleaf",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rinwaoluwa.greenleaf"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c72dac10-a126-41cb-be67-2c6d0e49d6ca"
+      }
     }
   }
 }
